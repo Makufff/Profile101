@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: hsl(45, 33%, 92%);        /* Beige background */
+    --foreground: hsl(350, 45%, 25%);       /* Dark burgundy text */
+    --primary: hsl(350, 45%, 35%);          /* Burgundy primary */
+    --primary-foreground: hsl(45, 33%, 92%); /* Light text on primary */
+    --secondary: hsl(213, 40%, 55%);        /* Blue secondary */
+    --secondary-foreground: hsl(45, 33%, 98%); /* Light text on secondary */
+    --accent: hsl(45, 40%, 65%);            /* Gold accent */
+    --accent-foreground: hsl(350, 45%, 25%); /* Dark text on accent */
+    --destructive: hsl(350, 60%, 45%);      /* Darker burgundy for destructive */
+    --destructive-foreground: hsl(45, 33%, 98%);
+    --muted: hsl(45, 20%, 80%);             /* Muted beige */
+    --muted-foreground: hsl(350, 30%, 35%);
+    --card: hsl(45, 33%, 95%);              /* Slightly lighter beige for cards */
+    --card-foreground: hsl(350, 45%, 25%);
+    --popover: hsl(45, 33%, 98%);
+    --popover-foreground: hsl(350, 45%, 25%);
+    --border: hsl(350, 30%, 45%);           /* Burgundy borders */
+    --input: hsl(350, 30%, 85%);
+    --ring: hsl(213, 40%, 55%);             /* Blue ring */
+    --radius: 0.5rem;                /* Added some subtle rounding */
+  }
+
+  .dark {
+    --background: hsl(350, 35%, 15%);       /* Dark burgundy background */
+    --foreground: hsl(45, 33%, 92%);        /* Light beige text */
+    --primary: hsl(45, 40%, 65%);           /* Gold primary */
+    --primary-foreground: hsl(350, 45%, 25%);
+    --secondary: hsl(213, 40%, 45%);        /* Darker blue secondary */
+    --secondary-foreground: hsl(45, 33%, 98%);
+    --accent: hsl(350, 45%, 35%);           /* Burgundy accent */
+    --accent-foreground: hsl(45, 33%, 98%);
+    --destructive: hsl(350, 60%, 55%);
+    --destructive-foreground: hsl(45, 33%, 98%);
+    --muted: hsl(350, 30%, 25%);
+    --muted-foreground: hsl(45, 30%, 85%);
+    --card: hsl(350, 35%, 20%);
+    --card-foreground: hsl(45, 33%, 92%);
+    --popover: hsl(350, 35%, 20%);
+    --popover-foreground: hsl(45, 33%, 92%);
+    --border: hsl(45, 40%, 65%);            /* Gold borders in dark mode */
+    --input: hsl(350, 30%, 25%);
+    --ring: hsl(45, 40%, 65%);              /* Gold ring in dark mode */
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
