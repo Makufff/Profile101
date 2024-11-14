@@ -23,7 +23,6 @@
     --border: hsl(350, 30%, 45%);           /* Burgundy borders */
     --input: hsl(350, 30%, 85%);
     --ring: hsl(213, 40%, 55%);             /* Blue ring */
-    --radius: 0.5rem;                /* Added some subtle rounding */
   }
 
   .dark {
@@ -46,7 +45,6 @@
     --border: hsl(45, 40%, 65%);            /* Gold borders in dark mode */
     --input: hsl(350, 30%, 25%);
     --ring: hsl(45, 40%, 65%);              /* Gold ring in dark mode */
-    --radius: 0.5rem;
   }
 }
 
