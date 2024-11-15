@@ -21,7 +21,7 @@ const Projects = () => {
             <div className="mt-4 flex gap-4">
               <Link
                 href="https://github.com/Makufff/Image-Captioning-Raspberry-Pi"
-                className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                className="border-2 inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
                 prefetch={false}
                 target='_blank'
               >
@@ -47,7 +47,7 @@ const Projects = () => {
             <div className="mt-4 flex gap-4">
               <Link
                 href="https://github.com/Makufff/camera-workflow-with-adobe-lightroom"
-                className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                className="border-2 inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
                 prefetch={false}
                 target='_blank'
               >
@@ -73,7 +73,7 @@ const Projects = () => {
             <div className="mt-4 flex gap-4">
               <Link
                 href="https://github.com/Makufff/Music2LeadSheet"
-                className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                className="border-2 inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
                 prefetch={false}
                 target='_blank'
               >
@@ -99,7 +99,7 @@ const Projects = () => {
             <div className="mt-4 flex gap-4">
               <Link
                 href="https://github.com/Makufff/Object-Detection-Template-application"
-                className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                className="border-2 inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
                 prefetch={false}
                 target='_blank'
               >
@@ -128,7 +128,7 @@ const Projects = () => {
             <div className="mt-4 flex gap-4">
               <Link
                 href="https://github.com/Alpaca-8b-Llama3Hackathon"
-                className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                className="border-2 inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
                 prefetch={false}
                 target='_blank'
               >

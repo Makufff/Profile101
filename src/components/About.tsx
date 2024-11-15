@@ -15,7 +15,7 @@ const About = () => {
           <p>
             Hi, I'm Tanapat Chamted, an Information Technology student at KMITL. I work with AI technologies and software development, mainly focusing on MultiModal AI, LLMs, and computer vision. I'm particularly interested in low-level programming and CUDA development. My primary programming languages are Python, JavaScript, and C++.
           </p>
-        </div>
+        </div>  
       </div>
     </section>
   );
